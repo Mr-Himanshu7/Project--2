@@ -1,0 +1,309 @@
+<html>
+    <title>
+        Ques part 4 
+    </title>
+    <head>
+        <script>
+            var h=29,m=59,k=0,index,c=0;
+            k=setInterval(function()
+            {
+                var k=document.getElementById("x").innerHTML="Timeleft : " +h+ " :  "+""+m;
+                m--;
+                if(m==0)
+            {
+                h--;
+                m=59;
+            }
+            if(h==0)
+            {
+                m=0;
+                document.getElementById("a1").style.visibility='hidden';
+                document.getElementById("a2").style.visibility='hidden';
+                document.getElementById("a3").style.visibility='hidden';
+                document.getElementById("a4").style.visibility='hidden';
+                document.getElementById("a5").style.visibility='hidden';
+                document.getElementById("a6").style.visibility='hidden';
+                document.getElementById("a7").style.visibility='hidden';
+                document.getElementById("a8").style.visibility='hidden';
+                document.getElementById("a9").style.visibility='hidden';
+                document.getElementById("a10").style.visibility='hidden';
+            
+
+                
+
+                document.getElementById("b1").style.visibility='hidden';
+                document.getElementById("b2").style.visibility='hidden';
+                document.getElementById("b3").style.visibility='hidden';
+                document.getElementById("b4").style.visibility='hidden';
+
+                
+
+
+            }
+
+            } ,1000);
+
+            var x=[
+                
+                   { Question: "1.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "2.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "3.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "4.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "5.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                   {Question: "6.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "7.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "8.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "9.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                    
+                    {Question: "10.who is the father of C language",option1:"Steve jobs",option2:"James gosling",option3:"Dennis ritchie",
+                    option4:"Rasmus lerdrof",ANSWER:"3"},
+                
+            ]
+            function show1()
+            {
+                index=0;
+                document.getElementById("q").innerHTML="Question is :"+x[0].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x' id='a' value=1>"+x[0].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[0].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[0].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[0].option4;
+            }
+            function show2()
+            {
+                index=1;
+                document.getElementById("q").innerHTML="Question is :"+x[1].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[1].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[1].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[1].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[1].option4;
+            
+            }
+            function show3()
+            {
+                index=2;
+                document.getElementById("q").innerHTML="Question is :"+x[2].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[2].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[2].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[2].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[2].option4;
+            }
+            function show4()
+            {
+                index=3;
+                document.getElementById("q").innerHTML="Question is :"+x[3].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[3].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[3].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[3].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[3].option4;
+            }
+            function show5()
+            {
+                index=4;
+                document.getElementById("q").innerHTML="Question is :"+x[4].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[4].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[4].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[4].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[4].option4;
+            }
+            function show6()
+            {
+                index=5;
+                document.getElementById("q").innerHTML="Question is :"+x[5].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[5].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[5].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[5].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[5].option4;
+            }
+            function show7()
+            {
+                index=6;
+                document.getElementById("q").innerHTML="Question is :"+x[6].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[6].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[6].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[6].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[6].option4;
+            }
+            function show8()
+            {
+                index=7;
+                document.getElementById("q").innerHTML="Question is :"+x[7].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[7].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[7].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[7].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[7].option4;
+            }
+            function show9()
+            {
+                index=8;
+                document.getElementById("q").innerHTML="Question is :"+x[8].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[8].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[8].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[8].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[8].option4;
+            }
+            function show10()
+            {
+                index=9;
+                document.getElementById("q").innerHTML="Question is :"+x[9].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'id='a' value=1>"+x[9].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'id='b' value=2>"+x[9].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'id='c' value=3>"+x[9].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'id='d' value=4>"+x[9].option4;
+            }
+            function shownext()
+            {
+                if(index==9)
+                {
+                    index=0;
+                }
+                else
+                {
+                    index++;                                 // yeh se next que m jate jayenge
+                }
+                                          
+                document.getElementById("q").innerHTML="Question is :"+x[index].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'>"+x[index].option1;
+                document.getElementById("op2").innerHTML="<input type='radio' name='x'>"+x[index].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'>"+x[index].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'>"+x[index].option4;
+        }
+            function showprivous()
+            {
+                if(index==0)
+            {
+                index=9;
+            }
+            else{
+                index--;
+            }
+            
+                document.getElementById("q").innerHTML="Question is :"+x[index].Question;
+                document.getElementById("op1").innerHTML="<input type='radio' name='x'>"+x[index].option1;
+                document.getElementById("op2").innerhtml="<input type='radio' name='x'>"+x[index].option2;
+                document.getElementById("op3").innerHTML="<input type='radio' name='x'>"+x[index].option3;
+                document.getElementById("op4").innerHTML="<input type='radio' name='x'>"+x[index].option4;
+            }
+            function showanswer()
+            {
+                var p;
+                if(document.getElementById("a").checked==true)
+            {
+                p=document.getElementById("a").value;
+            }
+            if(document.getElementById("b").checked==true)
+            {
+                p=document.getElementById("b").value;
+            }
+            if(document.getElementById("c").checked==true)
+            {
+                p=document.getElementById("c").value;
+            }
+            if(document.getElementById("d").checked==true)
+            {
+                p=document.getElementById("d").value;
+            }
+            if(x[index].answer==p)
+            {
+                alert("right")
+                c=c+1;
+            }
+            else{
+                alert("wrong")
+            }
+        }
+
+        function showfinish()
+        {
+            alert(c+"/10");
+        }
+                             
+          
+        </script>
+    </head>
+    <style>
+        body{
+            background-color:black;
+            color: white;
+            margin-left: 100px;
+            margin-top: 100px;
+
+        }
+        .z{
+            background-color: aquamarine;
+            margin-left: 40px;
+            height: 30px;
+            width: 30px;
+            border-color: whitesmoke;
+        }
+        .z:hover{
+            transform: scale(1.5);
+            background-color:whitesmoke;
+        }
+        .z1{
+            width: 100px;
+            height: 35px;
+            margin-left: 30px;
+           
+        }
+        .z1:hover{
+            transform: scale(1.5);
+            background-color: darkkhaki;
+        }
+        #x{
+            font-size: 30px;
+            margin-left: 28px;
+        
+        }
+        .y{
+            font-size: 30px;
+        }
+        
+    </style>
+         <body >
+            
+            <input type="button" value="1" id="a1" class="z" onclick="show1()">
+            <input type="button"value="2" id="a2" class="z" onclick="show2()">
+            <input type="button"value="3" id="a3" class="z"onclick="show3()">
+            <input type="button"value="4" id="a4" class="z"onclick="show4()">
+            <input type="button"value="5" id="a5" class="z" onclick="show5()">
+            <input type="button"value="6" id="a6" class="z" onclick="show6()">
+            <input type="button"value="7" id="a7" class="z" onclick="show7()">
+            <input type="button"value="8" id="a8" class="z"onclick="show8()">
+            <input type="button"value="9" id="a9" class="z"onclick="show9()">
+            <input type="button"value="10" id="a10"class="z"onclick="show10()">
+            <br><br>
+
+
+            <input type="button"value="NEXT" id="b1"class="z1" onclick="shownext()">   
+            <input type="button"value="PRIVOUS" id="b2"class="z1"onclick="showprivous()">
+            <input type="button"value="ANSWER" id="b3"class="z1"onclick="showanswer()">
+            <input type="button"value="FINISH" id="b4"class="z1" onclick="showfinish()">
+ 
+            
+            <p id="x"></p>
+            <p id="q" class="y"></p>
+            <p id="op1"class="y"></p>
+            <p id="op2"class="y"></p>
+            <p id="op3"class="y"></p> 
+            <p id="op4"class="y"></p>
+            
+        </body>
+    
+</html>

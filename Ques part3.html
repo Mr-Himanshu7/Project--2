@@ -1,0 +1,82 @@
+<html>
+    <title>
+        Ques part 3 login page
+    </title>
+    <head>
+        <script>
+            function login(){
+                var a,b;
+                a=document.getElementById("t1").value;
+                b=document.getElementById("t2").value;
+        
+            if(a=="himanshu" && b=="yadav")
+        {
+            window.location='Ques part4.html';
+          
+        }
+        else
+        {
+            alert("INVAID ");
+
+        }
+    }
+            
+
+        </script>
+        <style>
+            body{
+                background-color: gray;
+            }
+            .a{
+                text-align: center;
+                font-weight: bold;
+                font-size: 50px;
+                margin-top: 50px;
+            }
+            .box{
+                width: 545px;
+                height: 400px;
+                margin-top: 200px;
+                margin-left: 670px;
+                background-color: white;
+            }
+            .b{
+                width: 400px;
+                height: 50px;
+                background-color: white;
+                margin-top: 50px;
+                margin-left: 60px;
+
+            }
+            .c{
+                width: 400px;
+                height: 50px;
+                background-color: white;
+                margin-top: 50px;
+                margin-left: 60px;
+
+            }
+            .d{
+                width: 400px;
+                height: 50px;
+                background-color: black;
+                margin-top: 50px;
+                margin-left: 60px;
+                color: whitesmoke;
+                font-weight: bold;
+                font-size: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p class="a"><u>SING UP</u></p>
+        <div class="box">
+            <input type="text"id="t1"placeholder="username"class="b">
+            <input type="text"id="t2"placeholder="password"class="c">
+            <input type="button"value="LOGIN"class="d" onclick="login()">
+
+        </div>
+        
+    </body>
+</html>
